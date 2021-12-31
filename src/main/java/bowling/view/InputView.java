@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 public final class InputView {
     private static final String INPUT_PLAYERS_SIZE_MESSAGE = "How many people? ";
     private static final String INPUT_PLAYER_NAME_MESSAGE = "플레이어 %d의 이름은(3 english letters)?: ";
-    private static final String INPUT_FALLEN_PINS_MESSAGE = "%s's turn : : ";
+    private static final String INPUT_FALLEN_PINS_MESSAGE = "%s's turn : ";
 
     private static final Scanner SCANNER = new Scanner(System.in);
 
